@@ -1,32 +1,40 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+<v-app>
+    
+    <v-main id="main-container">
+        <router-view />
+    </v-main>
+    <SideBar>
+    </SideBar>
+</v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import SideBar from "@/components/SideBar.vue";
+export default {
+    name: 'App',
 
-#nav {
-  padding: 30px;
+    data: () => ({
+        //
+    }),
+    components: {
+        SideBar
+    },
+};
+</script>
+<style >
+#main-container {
+  margin-bottom: 5rem;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+>>>.v-pagination {
+    justify-content: end;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.overflow {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.text-ok {
+    align-items:start !important;
+    word-break: break-all;
 }
 </style>
