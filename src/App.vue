@@ -26,9 +26,7 @@ export default {
 #main-container {
   margin-bottom: 5rem;
 }
->>>.v-pagination {
-    justify-content: end;
-}
+
 .overflow {
     overflow: hidden;
     overflow-y: scroll;

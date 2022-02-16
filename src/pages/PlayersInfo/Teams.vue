@@ -220,5 +220,8 @@ export default {
     gap: 1rem;
     flex-wrap: wrap;
 }
+.v-pagination {
+    justify-content: end !important;
+}
 
 </style>

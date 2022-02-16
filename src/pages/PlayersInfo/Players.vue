@@ -207,4 +207,7 @@ export default {
 .h-50 {
     height: 50%;
 }
+>>>.v-pagination {
+    justify-content: end !important;
+}
 </style>
