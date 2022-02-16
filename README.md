@@ -1,5 +1,16 @@
 # football
 
+## greetings
+
+Hi This is Camilo, to use this project please clone it and create a .env file.
+
+Then put in your VUE_APP_SECRET_CODE and VUE_APP_BASE_URL
+
+The VUE_APP_BASE_URL is the base url where your backend is hosted
+
+The VUE_APP_SECRET_CODE is the secret code that your backend will need to work
+
+
 ## Project setup
 ```
 npm install
@@ -17,3 +28,5 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
